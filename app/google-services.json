@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "648278628664",
+    "project_id": "tubes-pab-a501e",
+    "storage_bucket": "tubes-pab-a501e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648278628664:android:5ee89d5acc56e0e4bbc9cd",
+        "android_client_info": {
+          "package_name": "com.medimemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648278628664-v56q9h93dh1vdlsh716ftslonita6l93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medimemo",
+            "certificate_hash": "2cbe61577e34e6beaff33c88c7e5234192115960"
+          }
+        },
+        {
+          "client_id": "648278628664-9ssgfav84gimrunihbv8h2465q79q98d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp7v6z7V_XP4chxd1Lh93mrjQN7153FA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648278628664-9ssgfav84gimrunihbv8h2465q79q98d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
