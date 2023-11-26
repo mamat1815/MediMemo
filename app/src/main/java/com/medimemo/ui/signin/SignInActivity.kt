@@ -8,6 +8,7 @@ import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.medimemo.MainActivity
 import com.medimemo.databinding.ActivitySignInBinding
+import com.medimemo.ui.signup.SignUpActivity
 
 class SignInActivity : AppCompatActivity() {
 
@@ -53,6 +54,12 @@ class SignInActivity : AppCompatActivity() {
                 }
                 loginFirebase(email, password)
             }
+
+            tvRegister.setOnClickListener {
+                val intent = Intent(this@SignInActivity, SignUpActivity::class.java)
+                startActivity(intent)
+            }
+
         }
     }
 

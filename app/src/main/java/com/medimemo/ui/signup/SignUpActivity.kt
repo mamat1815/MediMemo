@@ -31,6 +31,10 @@ class SignUpActivity : AppCompatActivity() {
                 val confirmPassword = edtRgConfirmPassword.text.toString()
                 val name = edtRgName.text.toString()
 
+                /*TODO
+                *
+                */
+
                 if (email.isEmpty()) {
                     edtRgEmail.error = "Email Harus Di Isi"
                     edtRgEmail.requestFocus()
