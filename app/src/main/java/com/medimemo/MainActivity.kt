@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-        binding.tvName.text = auth.currentUser.toString()
+        binding.tvName.text = auth.currentUser?.displayName
 
     }
 }
