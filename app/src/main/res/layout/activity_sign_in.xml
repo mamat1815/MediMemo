@@ -140,6 +140,7 @@
             android:textAlignment="center"/>
 
         <ImageButton
+            android:id="@+id/btn_lg_gso"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:scaleType="fitCenter"
